@@ -1,12 +1,12 @@
 package util;
 
 public class SortUtil {
-	
+	//
 	private SortUtil() {
 		
 	}
 	/**
-	 * Ã°ÅİÅÅĞò
+	 * å†’æ³¡æ’åº
 	 * 
 	 */
 	public static void bubbleSort(int[] arr) {
@@ -27,9 +27,9 @@ public class SortUtil {
 			}
 		}
 	}
-	/*for(i = 0;i < length - 1;i++) //±È½Ïm-1ÂÖ
+	/*for(i = 0;i < length - 1;i++) //æ¯”è¾ƒm-1è½®
 	{
-		for(j = i + 1;j < length;j++) //Ã¿ÂÖ´Ó i+1¿ªÊ¼±È½Ï
+		for(j = i + 1;j < length;j++) //æ¯è½®ä» i+1å¼€å§‹æ¯”è¾ƒ
 		{
 			if(arr[i] > arr[j])
 			{
@@ -50,10 +50,10 @@ public class SortUtil {
 			index = i;
 			for(j = i + 1; j < length; j++)
 			{
-				if(arr[index] > arr[j]) index = j; //¼ÇÂ¼×îĞ¡ÔªËØµÄÏÂ±ê
+				if(arr[index] > arr[j]) index = j; //è®°å½•æœ€å°å…ƒç´ çš„ä¸‹æ ‡
 			}
-			if(index == i) continue;//Ã»ÓĞ¸ü¸Ä  ¼ÌĞøÑ­»·
-			else //Èç¹ûÏÂ±ê¸ü¸Ä ¾Í½»»»ÔªËØÎ»ÖÃ
+			if(index == i) continue;//æ²¡æœ‰æ›´æ”¹  ç»§ç»­å¾ªç¯
+			else //å¦‚æœä¸‹æ ‡æ›´æ”¹ å°±äº¤æ¢å…ƒç´ ä½ç½®
 			{
 				temp = arr[index];
 				arr[index] = arr[i];
